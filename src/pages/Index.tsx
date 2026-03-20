@@ -14,18 +14,7 @@ export default function Index() {
         { name: "Грибы на мангале", price: "250 ₽/порц", desc: "Шампиньоны на решётке с маслом и зеленью. Идеальный гарнир к шашлыку." },
       ],
     },
-    {
-      category: "Хинкали",
-      items: [
-        { name: "Хинкали с мясом", price: "80 ₽/шт", desc: "Тесто ручной раскатки, сочная начинка из говядины и свинины с пряными травами." },
-      ],
-    },
-    {
-      category: "Горячее",
-      items: [
-        { name: "Плов из казана", price: "от 450 ₽/порц", desc: "Настоящий плов с бараниной, нутом и изюмом. Готовится в большом казане по старинному рецепту." },
-      ],
-    },
+
   ];
 
   return (
@@ -139,16 +128,16 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>Популярное</span>
               <img
-                src="https://cdn.poehali.dev/projects/bc220711-1379-4846-a096-3deb4f17ec03/files/23a7206f-dd6b-423f-8e7e-16fc84e8ba26.jpg"
-                alt="Хинкали"
+                src="https://cdn.poehali.dev/projects/bc220711-1379-4846-a096-3deb4f17ec03/files/d21d3192-1dea-4fc5-a473-39d7c9dad474.jpg"
+                alt="Гарниры на мангале"
               />
               <div className="menu-card-body">
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
-                  <h3>Хинкали с мясом</h3>
-                  <span className="price">80 ₽/шт</span>
+                  <h3>Грибы на мангале</h3>
+                  <span className="price">250 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тесто ручной раскатки, сочная начинка из говядины и свинины с пряными травами.
+                  Шампиньоны на решётке с маслом и зеленью. Идеальный гарнир к шашлыку.
                 </p>
               </div>
             </div>
