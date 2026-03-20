@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">КАВКАЗ*ХАУС</div>
+        <div className="logo">ИМПЕРИЯ-А</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">Банкеты</a>
@@ -18,12 +18,12 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              ДУША
+              ИМ<span>ПЕРИЯ</span>
               <br />
-              КАВ<span>КАЗА</span>
+              ВКУСА
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Кафе и банкетный зал кавказской кухни. Вместимость до 100 гостей. Хинкали, шашлык и плов — по рецептам, которые не меняются поколениями.
+              Кафе и банкетный зал кавказской кухни «Империя-А». Вместимость до 100 гостей. Хинкали, шашлык и плов — по рецептам, которые не меняются поколениями.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
@@ -195,9 +195,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">КАВКАЗ*ХАУС</div>
+          <div className="footer-logo">ИМПЕРИЯ-А</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Кафе и банкетный зал кавказской кухни. Вместимость до 100 человек. Настоящие рецепты, настоящее гостеприимство.
+            Кафе и банкетный зал кавказской кухни «Империя-А». Вместимость до 100 человек. Настоящие рецепты, настоящее гостеприимство.
           </p>
         </div>
         <div className="footer-links">
