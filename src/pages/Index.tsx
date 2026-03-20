@@ -225,7 +225,7 @@ export default function Index() {
               </button>
             </a>
           </div>
-          <div className="vibe-img"></div>
+          <div className="vibe-img" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/bc220711-1379-4846-a096-3deb4f17ec03/bucket/b296e23b-3874-454c-9f25-2a66b4a1c343.jpeg)`, backgroundSize: "cover", backgroundPosition: "center" }}></div>
         </section>
 
         <section className="section-padding">
